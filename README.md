@@ -1,35 +1,35 @@
-# TECHIN514 
-## Bath Quality Monitor
+## TECHIN514 
+# Bath Quality Monitor
 - The product is designed for families who enjoy bathing. 
 - This product can detect inner water temperature and turbidity.
 - Allowing users to easily adjust the water temperature (avoiding initially setting the temperature too hot or too cold; needing to add more hot water after one family member has bathed and another wishes to bathe later).
 - Alert users if they need to change the water.
 - This product allows each family member to have a comfortable bathing experience at their preferred water temperature, saving time (avoiding repeatedly adjusting water temperature or waiting for overly hot water to cool down) and saving water resources (preventing the need to drain some water if the temperature is not right despite the tub being full). 
 
-## Sensor Device
-# Microcontroller: ESP32
-# DS18B20 Digital Temperature Sensor (Waterproof)
+# Sensor Device
+## Microcontroller: ESP32
+## DS18B20 Digital Temperature Sensor (Waterproof)
 - Datasheet https://www.analog.com/media/en/technical-documentation/data-sheets/ds18b20.pdf
 - The DS18B20 is a widely used electronic component for temperature measurement 
 - The DS18B20 communicates over a one-wire bus that requires only one data line (and ground) for communication 
 - The DS18B20 provides temperature readings in a digital format (incorporates an analog-to-digital converter) and other signal processing circuitry to output temperature data in a digital form
-# TSW-10 Turbidity Sensor 
+## TSW-10 Turbidity Sensor 
 - Datasheet https://files.seeedstudio.com/products/101020752/Turbidity%20Sensor%20specification.pdf 
 - The TSW-10 uses an optical method to measure turbidity. It shines an LED through the water and measures how much light is scattered by the suspended particles in the water.
 - The turbidity is usually measured in Nephelometric Turbidity Units (NTU). Higher NTU values indicate higher turbidity, which means there are more particles suspended in the water.
 - The sensor usually provides an analog with the turbidity level. This output can be connected to a microcontroller or data logger for recording and analysis.
 
-## Display Device
-# Microcontroller: ESP32
-# OLED
+# Display Device
+## Microcontroller: ESP32
+## OLED
 - Displaying the water temperature and turbidity.
 - Helping users to know if the bath water is comfortable, hot, or cold. 
 - Helping users rely on the display data to adjust the bath water temperature
-# Stepper-motor-driven gauge needle 
+## Stepper-motor-driven gauge needle 
 - According to the turbidity, indicate if the water is clear, normal, or dirty.
-# LED
+## LED
 - If the turbidity is higher than the figure, the LED light s up and alerts users to change the bath water. If the water is dirty.
 
-## Figure
-# How the devices communicate with each other
-# Work Flow
+# Figure
+## How the devices communicate with each other
+## Work Flow
